@@ -15,8 +15,6 @@ VALUES (2, 'Liu', 'Feng', 'male', 28);
 INSERT INTO employee (id, first_name, last_name, gender, age)
 VALUES (2, 'Izumi', 'Saito', 'male', 26);
 
-SELECT * FROM employee;
-
 CREATE TABLE city (city_id BIGSERIAL NOT NULL PRIMARY KEY,
                    city_name VARCHAR(60) NOT NULL);
 ALTER TABLE employee ADD COLUMN city_id INT;
